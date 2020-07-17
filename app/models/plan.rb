@@ -1,4 +1,3 @@
 class Plan < ApplicationRecord
-  validates :plan, presence: true
-  validates :date, presence: true
+  validates :plan, :date, presence: true
 end
